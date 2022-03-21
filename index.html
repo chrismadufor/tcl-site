@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/tailwind-all.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Techspecialist Consulting Limited</title>
+</head>
+<body>
+    <main>
+        <header id="header" class="flex items-center justify-between h-20 fixed w-full top-0 px-5 md:px-12 xl:px-20 z-10">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/tcl-logo.png" alt="tcl logo" class="h-12 lg:h-16 mb-2">
+                </a>
+            </div>
+            <nav class="flex items-center">
+                <ul class="hidden xl:flex items-center text-base text-white uppercase">
+                    <a href="services.html">
+                        <li class="mx-4 p-3">Services <i class="fas fa-chevron-down ml-2 text-sm"></i></li>
+                    </a>
+                    <a href="clients.html">
+                        <li class="mx-4 p-3">Clients</li>
+                    </a>
+                    <a href="company.html">
+                        <li class="mx-4 p-3">Company</li>
+                    </a>
+                    <a href="resources.html">
+                        <li class="mx-4 p-3">Resources</li>
+                    </a>
+                </ul>
+                <button class="text-white uppercase px-8 py-3 hidden ml-8 md:block mr-12 xl:mr-0">Get in touch</button>
+                <i id="open-mobile-nav" class="fas fa-bars text-2xl text-white xl:hidden"></i>
+            </nav>
+        </header>
+        <div class="mobile-nav fixed w-full top-0 h-screen bg-white z-20">
+            <header class="flex justify-between items-center h-20 px-5 md:px-12 border-b">
+                <div class="logo">
+                    TCL Rocks!
+                </div>
+                <i id="close-mobile-nav" class="fas fa-times text-2xl font-light"></i>
+            </header>
+            <nav>
+                <a href="services.html" class="bg-gray-400">
+                    <p class="w-full border-b p-5 md:px-12">Services</p>
+                </a>
+                <a href="clients.html" class="bg-gray-400">
+                    <p class="w-full border-b p-5 md:px-12">Clients</p>
+                </a>
+                <a href="company.html" class="bg-gray-400">
+                    <p class="w-full border-b p-5 md:px-12">Company</p>
+                </a>
+                <a href="resources.html" class="bg-gray-400">
+                    <p class="w-full border-b p-5 md:px-12">Resources</p>
+                </a>
+            </nav>
+            <div class="h-20  p-5 absolute bottom-0 w-full shadow">
+                <button class="text-white uppercase w-full h-full">Get in touch</button>
+            </div>
+        </div>
+        <div class="glide hero-glide relative">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+                    <div class="glide__slide overflow-hidden relative flex justify-center flex-col text-white h-screen">
+                        <img class="absolute top-0 z-0" src="img/glide1.jpg" alt="">
+                        <div class="glide-text md:px-20 xl:px-32">
+                            <h1 class="text-2xl md:text-4xl xl:text-5xl font-normal uppercase tracking-wide">It Management and Support</h1>
+                            <p class="text-base md:text-xl mb-5 mt-5 md:mb-10 font-light tracking-wide">Over 15 years providing Managed Services for enterprise organisations</p>
+                            <a href="">
+                                <button class="bg-transparent border-solid border-white border-2 px-5 py-2 md:px-8 md:py-3 text-base uppercase flex items-center">Read More <i class="fas fa-chevron-right ml-5 font-semibold"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="glide__slide overflow-hidden relative flex justify-center flex-col text-white h-screen">
+                        <img class="absolute top-0 z-0" src="img/glide2.jpg" alt="">
+                        <div class="glide-text md:px-20 xl:px-32">
+                            <h1 class="text-2xl md:text-4xl xl:text-5xl font-normal uppercase tracking-wide">Cyber Security</h1>
+                            <p class="text-base md:text-xl mb-5 mt-5 md:mb-10 font-light tracking-wide">Empowering organisations to achieve great things, securely.</p>
+                            <a href="">
+                                <button class="bg-transparent border-solid border-white border-2 px-5 py-2 md:px-8 md:py-3 text-base uppercase flex items-center">Read More <i class="fas fa-chevron-right ml-5 font-semibold"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="glide__slide overflow-hidden relative flex justify-center flex-col text-white h-screen">
+                        <img class="absolute top-0 z-0" src="img/glide3.jpg" alt="">
+                        <div class="glide-text md:px-20 xl:px-32">
+                            <h1 class="text-2xl md:text-4xl xl:text-5xl font-normal uppercase tracking-wide">Cloud Services</h1>
+                            <p class="text-base md:text-xl mb-5 mt-5 md:mb-10 font-light tracking-wide">Helping You Unlock and Maximize the Benefits of the Cloud</p>
+                            <a href="">
+                                <button class="bg-transparent border-solid border-white border-2 px-5 py-2 md:px-8 md:py-3 text-base uppercase flex items-center">Read More <i class="fas fa-chevron-right ml-5 font-semibold"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-chevron-left text-3xl md:text-5xl font-light text-gray-400 text-opacity-5"></i></button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-chevron-right text-3xl md:text-5xl font-light text-gray-400 text-opacity-5"></i></button>
+            </div>
+            <div class="glide__bullets absolute" data-glide-el="controls[nav]">
+                <button class="glide__bullet bg-white w-2 lg:w-3 h-2 lg:h-3 mx-1 rounded-full" data-glide-dir="=0"></button>
+                <button class="glide__bullet bg-white w-2 lg:w-3 h-2 lg:h-3 mx-1 rounded-full" data-glide-dir="=1"></button>
+                <button class="glide__bullet bg-white w-2 lg:w-3 h-2 lg:h-3 mx-1 rounded-full" data-glide-dir="=2"></button>
+            </div>
+        </div>
+        <section class="px-5 py-10 sm:px-10 sm:py-20">
+            <div class="who-we-are text-center text-gray-700 mb-10 sm:mb-20 mx-auto">
+                <h1 class="text-3xl uppercase font-semibold tracking-wide">Who We Are</h1>
+                <p class="text-base md:text-xl font-light leading-loose tracking-wide my-5">We are an IT Service delivery company that provides cutting edge Managed IT solutions, helping companies and enterprise clients. We provide flexible and scalable IT solutions that promise cost-effective answers to your IT problems. Techspecialist offers the best value managed IT services on the market. From fully outsourced IT services to single-service packages like helpdesk support or software procurement, our experts have what you need.</p>
+            </div>
+            <div class="glide client-glide">
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides clients-block w-full">
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/bill.png" alt="ncc">
+                            </div>
+                            <div>
+                                <img src="img/clients/undp.png" alt="anan">
+                            </div>
+                            <div>
+                                <img src="img/clients/tetfund.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/ncc.png" alt="">
+                            </div>
+                        </div>
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/ptad.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/unodc.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/usdf.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/nitda.png" alt="">
+                            </div>
+                        </div>
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/landstar.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/nmrc.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/nemsa.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/nsia.png" alt="">
+                            </div>
+                        </div>
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/british.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/efcc.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/fccpc.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/fhi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/macarthur.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/naicom.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/naptip.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/hsdf.png" alt="">
+                            </div>
+                        </div>
+                        <div class="glide__slide client-section">
+                            <div>
+                                <img src="img/clients/aedc.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/anan.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/mainstream.png" alt="">
+                            </div>
+                            <div>
+                                <img src="img/clients/boa.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="">
+                <button class="team-btn bg-transparent border-solid border-2 px-5 py-2 md:px-8 md:py-3 mt-12 md:mt-20 mx-auto text-base uppercase flex items-center rounded-md">Talk to our team</button>
+            </a>
+        </section>
+        
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"></script>
+    <script src="js/glide.js"></script>
+</body>
+</html>
