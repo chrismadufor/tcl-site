@@ -98,26 +98,18 @@
     background-color: rgb(181, 190, 194);
 }
 
-.mobile-nav {
-    transform: translateX(-100%);
-    transition: 0.5s ease-in;
-}
-
 .lock-scroll {
     overflow: hidden;
 }
 
-.mobile-nav.show {
-    transform: translateX(0);
-}
-
 .who-we-are {
-    max-width: 1100px;
+    max-width: 1000px;
     /* margin: 0 auto 80px; */
 }
 
 .client-glide {
-    max-width: 1200px;
+    max-width: 1000px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,8 +117,7 @@
 .client-section {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    max-width: 200px;
+    gap: 30px;
 }
 .team-btn {
     border: 2px solid var(--primary-color);
@@ -173,5 +164,8 @@
     .hero-glide .glide__bullets {
         bottom: 20px;
         left: 20px;
+    }
+    .client-section {
+        gap: 20px;
     }
 }

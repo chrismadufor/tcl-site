@@ -39,6 +39,7 @@ new Glide('.client-glide', {
     animationDuration: 800,
     animationTimingFunc: 'ease-out',
     perView: 6,
+    gap: '30px',
     breakpoints: {
         1200: {
             perView: 5,
@@ -62,3 +63,4 @@ new Glide('.client-glide', {
         }
     }
 }).mount()
+
